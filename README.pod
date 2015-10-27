@@ -1,0 +1,52 @@
+=encoding utf8
+
+
+This is Perl module B<Cache::Memory::Simple::ID>.
+
+=begin html
+
+<a href="http://travis-ci.org/bayashi/Cache-Memory-Simple-ID"><img src="https://secure.travis-ci.org/bayashi/Cache-Memory-Simple-ID.png"/></a> <a href="https://coveralls.io/r/bayashi/Cache-Memory-Simple-ID"><img src="https://coveralls.io/repos/bayashi/Cache-Memory-Simple-ID/badge.png?branch=master"/></a> <a href="http://cpants.cpanauthors.org/dist/Cache-Memory-Simple-ID"><img src="http://cpa
+nts.cpanauthors.org/dist/Cache-Memory-Simple-ID.png"/></a>
+
+=end html
+
+
+=head1 INSTALLATION
+
+Cache::Memory::Simple::ID installation is straightforward. If your CPAN shell is set up,
+you should just be able to do
+
+    % cpan Cache::Memory::Simple::ID
+
+Download it, unpack it, then build it as per the usual:
+
+    % perl Makefile.PL
+    % make && make test
+
+Then install it:
+
+    % make install
+
+
+=head1 DOCUMENTATION
+
+Cache::Memory::Simple::ID documentation is available as in POD. So you can do:
+
+    % perldoc Cache::Memory::Simple::ID
+
+
+=head1 REPOSITORY
+
+Cache::Memory::Simple::ID is hosted on github
+L<http://github.com/bayashi/Cache-Memory-Simple-ID>
+
+
+=head1 LICENSE
+
+This module is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself. See L<perlartistic>.
+
+
+=head1 AUTHOR
+
+Dai Okabayashi E<lt>bayashi@cpan.orgE<gt>
