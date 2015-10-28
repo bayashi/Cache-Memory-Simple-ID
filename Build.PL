@@ -12,7 +12,8 @@ my $builder = Module::Build->new(
         'Module::Build' => 0.38,
     },
     build_requires      => {
-        'Test::More' => 0.88,
+        'Test::More' => 0.90,
+        'Test::Time' => 0,
     },
     requires => {
         'perl' => '5.008001',
