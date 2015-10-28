@@ -18,7 +18,7 @@ my $builder = Module::Build->new(
         'perl' => '5.008001',
         'strict' => 0,
         'warnings' => 0,
-        'Carp' => 0,
+        'Time::HiRes' => 0,
     },
     add_to_cleanup      => [ 'Cache-Memory-Simple-ID-*' ],
     meta_merge     => {
