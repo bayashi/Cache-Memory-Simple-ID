@@ -118,7 +118,12 @@ To check more detail: C<benchmark/*> of this distribution
 
 =head2 CAVEAT
 
-You can use ONLY an integer key as cache key.
+You can use ONLY numeral key as cache key.
+
+Probably, you are going to get an error 'Out of memory' even if you use an integer key as cache key like below.
+
+    my $cache  = Cache::Memory::Simple::ID->new;
+    $cache->set(2**31-1 => 1); # kaboom!
 
 
 =head1 METHODS
