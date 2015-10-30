@@ -1,4 +1,7 @@
 Revision history for Perl extension Cache::Memory::Simple::ID
 
+0.02    Fri Oct 30 19:30:30 JST 2015
+        - add POD about large numeral cache key
+
 0.01    Wed Oct 28 16:22:13 JST 2015
         - original version
